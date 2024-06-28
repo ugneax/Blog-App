@@ -1,0 +1,133 @@
+.App{
+    background-color: #f8efef;
+    min-height: 100vh;
+}
+.createAccContainer, .loginContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+    margin: 50px auto;
+}
+.inputsContainer{
+    display: flex;
+    flex-direction: column;
+}
+.inputField{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+.createAccButton, .goToLoginButton, .loginButton, .updateButton, .deleteButton, .createButton, .logoutButton{
+    width: 150px;
+    height: 40px;
+    background-color: burlywood;
+    cursor: pointer;
+}
+.toolbarContainer{
+    display: flex;
+    gap: 30px;
+    height: 50px;
+    background-color: #ead9bf;
+    font-size: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ead9bf;
+    padding: 0 50px;
+
+}
+.pegination{
+    display: flex;
+    gap: 25px;
+
+}
+.pegination a{
+   border: 2px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}
+.postsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.postCard{
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.postCard img, .singlePostCard img, .userPostsCard img, .favoritesContainer img{
+    width: 250px;
+    max-height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+.postTitle{
+    text-align: center;
+    width: 400px;
+    overflow: hidden;
+}
+.singlePostCard, .updateCard, .createPostContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.singlePostDescription{
+    width: 80%;
+    text-align: center;
+}
+.updateInput, .createInput{
+    width: 600px;
+    height: 50px;
+    line-break: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.userPostsContainer, .favoritesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+}
+.userPostsCard, .favoritePost{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 20px;
+    align-items: center;
+}
+.userPostsCard p {
+    text-align: center;
+
+}
+
+.loginToolbarContainer{
+   display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+.favoritePost{
+    justify-content: space-around;
+}
+.noFavorites{
+    margin: 0 auto;
+}
